@@ -6,6 +6,8 @@ fun main(){
     SarahAccount.deposit(100.0)
     SarahAccount.withdraw(10.0)
     SarahAccount.deposit(300.0)
+    SarahAccount.deposit(300.0)
+    SarahAccount.withdraw(20.0)
     SarahAccount.displayTransactionHistory()
     println("${SarahAccount.accountHolder}'s transaction history and final balance ${SarahAccount.balance}")
 }
